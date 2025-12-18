@@ -8,7 +8,8 @@ Chceme ve spolupráci s Hlibem vytvořit stolní zařízení na bázi Arduino UN
 Rozhodl jsem se začít na bázi **Arduino UNO** a ktomu zakoupit startovní sadu **LaskaKit Arduino MINI Starter kit** 
 https://www.laskakit.cz/laskkit-arduino-mini-starter-kit/ - pro začátek obsahuje vše co potřebujeme a bude solidním základem pro projekt
 ### 1.3" 240x240 TFT IPS Barevný displej ST7789, SPI
-pro obrazovku jsme si vybrali právě tuto, hlavní myšlenou byla její velikost, které chce později využií ve vedlejším projektu, kterým je handheld verze daného zařízení, také protože má i barevné zobrazování; Využívá technologii tenkovrstvých tranzistorů (Thin Film Transistor) k ovládání jednotlivých pixelů, což umožňuje vyšší rozlišení, lepší barvy a rychlejší odezvu než starší LCD technologie. Zkrátka Pod každým pixelem je umístěn tranzistor, který řídí jeho jas a barvu. Díky tomu lze přesně ovládat obraz.
+pro obrazovku jsme si vybrali právě tuto, hlavní myšlenou byla ![6933-2_6933-2-1-3-240x240-tft-ips-barevny-displej-st7789-spi](https://github.com/user-attachments/assets/7f022b93-56bb-440d-b190-8a6275a37ef8)
+ její velikost, které chce později využií ve vedlejším projektu, kterým je handheld verze daného zařízení, také protože má i barevné zobrazování; Využívá technologii tenkovrstvých tranzistorů (Thin Film Transistor) k ovládání jednotlivých pixelů, což umožňuje vyšší rozlišení, lepší barvy a rychlejší odezvu než starší LCD technologie. Zkrátka Pod každým pixelem je umístěn tranzistor, který řídí jeho jas a barvu. Díky tomu lze přesně ovládat obraz.
 https://www.laskakit.cz/1-3--240x240-tft-ips-barevny-displej-st7789--spi/
 ### NFC nálepka inlay tag, NTAG215
 tyto NFC stickery využijeme právě pro odkazování na aplikaci, tento typ má celkovou paměť 540B s uživatelskou pamětí 504B. Je sestaven na základu nového čipu NTAG215 dosahujícího jedné z nejlepších čtecích vzdáleností a vybaveného pokročilými funkcemi.
