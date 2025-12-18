@@ -5,4 +5,4 @@ Chceme ve spolupráci s Hlibem vytvořit stolní zařízení na bázi Arduino UN
 
 ## Díly a jejich využití, parametry.
 Rozhodl jsem se začít na bázi **Arduino UNO** a ktomu zakoupit startovní sadu **LaskaKit Arduino MINI Starter kit** 
-https://www.laskakit.cz/laskkit-arduino-mini-starter-kit/
+https://www.laskakit.cz/laskkit-arduino-mini-starter-kit/ - pro začátek obsahuje vše co potřebujeme a bude solidním základem pro projekt
