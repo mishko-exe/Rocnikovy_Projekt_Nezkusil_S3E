@@ -38,5 +38,5 @@ void loop() {
   noTone(buzzer);       **// vypne bzučák**
   delay(200);           **// krátká pauza**
 
-  # To je pro momentální chvili vše, schémata zapojení, více kódu a sestavení bude až koupím díly, tedy zhruba po vánocích :smiley:
+  # To je pro momentální chvíli vše, schémata zapojení, více kódu a sestavení bude až koupím díly, tedy zhruba po vánocích :smiley:
 
