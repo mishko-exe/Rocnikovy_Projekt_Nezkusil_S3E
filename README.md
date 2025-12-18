@@ -15,5 +15,8 @@ tyto NFC stickery využijeme právě pro odkazování na aplikaci, tento typ má
 NFC Forum Type 2 Tag kompatibilita plně odpovídá standardům ISO/IEC 14443 Type A.
 vlastnosti čipu
 **Paměť:** (více než NTAG213 s 144 bajty, méně než NTAG216 s 888 bajty). **Přepisovatelnost:** až 100 000 cyklů zápisu – vhodné pro dynamické aplikace, kde se data často mění. **Životnost:** uchování dat po dobu až 20 let.
-**Rychlost přenosu:** 106 kbit/s.**Napájení:** čip je pasivní – energii získává z elektromagnetického pole NFC čtečky.**Bezpečnost:** 32bitový heslový systém pro ochranu paměti.**Unikátní sériové číslo (UID):** 7 bajtů – slouží k jednoznačné identifikaci tagu.
+**Rychlost přenosu:** 106 kbit/s.**Napájení:** čip je pasivní – energii získává z elektromagnetického pole NFC čtečky.**Bezpečnost:** 32bitový heslový systém pro ochranu paměti.**Unikátní sériové číslo (UID):** 7 bajtů – slouží k jednoznačné identifikaci tagu. https://www.laskakit.cz/nfc-nalepka-inlay-tag--ntag215--45mm-10ks/
+### Bluetooth modul HC-05 TTL
+Tento Bluetooth modul je univerzální bezdrátový komunikační modul, který umožňuje sériový přenos dat (UART/TTL) mezi mikrokontroléry, počítači nebo mobilními zařízeními, a to přes Bluetooth 2.0. může fungovat jako **Master** tak i jako **Slave**
+hlavní jeho funcí je, že**nám umožní komunikaci mezi zařízením a telefonem**
 
