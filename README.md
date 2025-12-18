@@ -4,4 +4,5 @@
 Chceme ve spolupráci s Hlibem vytvořit stolní zařízení na bázi Arduino UNO. Bude schopné připojení k telefonu přes bluetooth a vzápětně nás upozorní že nás někdo potřebuje, s to pomocí blikajících LED a reproduktoru, obsažený bude také vibrační motorek, který rozvibruje stůl. V tomto případě rodiče zařízení také bude mí skenovatelný NFC tag, který uživatele přesune na Obchod Play, kde bude moci stáhnout aplikaci k BT rozhraní. Zařízení bude mít také obrazovku.
 
 ## Díly a jejich využití, parametry.
-Rozhodl jsem se začít na bázi # Arduino UNO #
+Rozhodl jsem se začít na bázi **Arduino UNO** a ktomu zakoupit startovní sadu **LaskaKit Arduino MINI Starter kit** 
+https://www.laskakit.cz/laskkit-arduino-mini-starter-kit/
