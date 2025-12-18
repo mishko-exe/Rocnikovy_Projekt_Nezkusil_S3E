@@ -17,6 +17,29 @@ vlastnosti čipu
 **Paměť:** (více než NTAG213 s 144 bajty, méně než NTAG216 s 888 bajty). **Přepisovatelnost:** až 100 000 cyklů zápisu – vhodné pro dynamické aplikace, kde se data často mění. **Životnost:** uchování dat po dobu až 20 let.
 **Rychlost přenosu:** 106 kbit/s.**Napájení:** čip je pasivní – energii získává z elektromagnetického pole NFC čtečky.**Bezpečnost:** 32bitový heslový systém pro ochranu paměti.**Unikátní sériové číslo (UID):** 7 bajtů – slouží k jednoznačné identifikaci tagu. https://www.laskakit.cz/nfc-nalepka-inlay-tag--ntag215--45mm-10ks/
 ### Bluetooth modul HC-05 TTL
-Tento Bluetooth modul je univerzální bezdrátový komunikační modul, který umožňuje sériový přenos dat (UART/TTL) mezi mikrokontroléry, počítači nebo mobilními zařízeními, a to přes Bluetooth 2.0. může fungovat jako **Master** tak i jako **Slave**
-hlavní jeho funcí je, že**nám umožní komunikaci mezi zařízením a telefonem**
+Tento Bluetooth modul je univerzální bezdrátový komunikační modul, který umožňuje sériový přenos dat (UART/TTL) mezi mikrokontroléry, počítači nebo mobilními zařízeními, a to přes Bluetooth 2.0. má tké dosah 10m, což je pro nás dostačující. Může fungovat jako **Master** tak i jako **Slave**
+jeho hlavní funcí je, že **nám umožní komunikaci mezi zařízením a telefonem** https://www.laskakit.cz/bluetooth-modul-hc-05-ttl/
+### Osvětlení, Bzučák
+pro výstražné blikání použijeme dvě LED červené barvy, které budou problikávat jak světla vystražného zařízení na železničním přejezdu (multivibrátor) a pasivní bzučák, který bude měnit tóninu pomocí arduino kódu
+// Připojení pasivního bzučáku na pin 8
+int buzzer = 8;
+
+void setup() {
+  pinMode(buzzer, OUTPUT);
+}
+
+void loop() {
+  // První tón (např. 1000 Hz)
+  tone(buzzer, 1000);   // zahraje tón 1000 Hz
+  delay(500);           // hraje 0,5 sekundy
+  noTone(buzzer);       // vypne bzučák
+  delay(200);           // krátká pauza
+
+  // Druhý tón (např. 1500 Hz)
+  tone(buzzer, 1500);   // zahraje tón 1500 Hz
+  delay(500);           // hraje 0,5 sekundy
+  noTone(buzzer);       // vypne bzučák
+  delay(200);           // krátká pauza
+
+  # To je pro momentální chvili vše, schémata zapojení, více kódu a sestavení bude až koupím díly, tedy zhruba po vánocích :smiley:
 
