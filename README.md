@@ -20,23 +20,9 @@ vlastnosti čipu
 Tento Bluetooth modul je univerzální bezdrátový komunikační modul, který umožňuje sériový přenos dat (UART/TTL) mezi mikrokontroléry, počítači nebo mobilními zařízeními, a to přes Bluetooth 2.0. má tké dosah 10m, což je pro nás dostačující. Může fungovat jako **Master** tak i jako **Slave**
 jeho hlavní funcí je, že **nám umožní komunikaci mezi zařízením a telefonem** https://www.laskakit.cz/bluetooth-modul-hc-05-ttl/
 ### Osvětlení, Bzučák
-pro výstražné blikání použijeme dvě LED červené barvy, které budou problikávat jak světla vystražného zařízení na železničním přejezdu (multivibrátor) a pasivní bzučák, který bude měnit tóninu pomocí arduino kódu
+pro výstražné blikání použijeme LED pásek, který jsem recykloval z čelovky, který bude problikávat jako světla výstražného zařízení a pasivní bzučák který bude pípat zároveň s páskem.
 
-**// Připojení pasivního bzučáku na pin 8**
-int buzzer = 8;
-void setup() {
-  pinMode(buzzer, OUTPUT); }
-void loop() {
-  **// První tón (např. 1000 Hz)**
-  tone(buzzer, 1000);   **// zahraje tón 1000 Hz**
-  delay(500);           **// hraje 0,5 sekundy**
-  noTone(buzzer);       **// vypne bzučák**
-  delay(200);           **// krátká pauza**
-  **// Druhý tón (např. 1500 Hz)**
-  tone(buzzer, 1500);   **// zahraje tón 1500 Hz**
-  delay(500);           **// hraje 0,5 sekundy**
-  noTone(buzzer);       **// vypne bzučák**
-  delay(200);           **// krátká pauza**
+[Kód pro Arduino UNO](https://github.com/mishko-exe/Rocnikovy_Projekt_Nezkusil_S3E/blob/main/IDE_code_skola.ino)
 
   # To je pro momentální chvíli vše, schémata zapojení, více kódu a sestavení bude až koupím díly, tedy zhruba po vánocích :smiley:
 
