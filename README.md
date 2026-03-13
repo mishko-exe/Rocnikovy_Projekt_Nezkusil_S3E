@@ -15,6 +15,7 @@ jeho hlavní funcí je, že **nám umožní komunikaci mezi zařízením a telef
 pro výstražné blikání použijeme LED pásek, který jsem recykloval z čelovky, který bude problikávat jako světla výstražného zařízení a pasivní bzučák který bude pípat zároveň s páskem.
 
 [Kód pro Arduino UNO](https://github.com/mishko-exe/Rocnikovy_Projekt_Nezkusil_S3E/blob/main/BT_vyvolavac_deti_copy_led_pasek.ino)
+
 [JAK FUNGUJE? (video)](https://youtube.com/shorts/f1tW5r6IqrI?feature=share)
 
 
